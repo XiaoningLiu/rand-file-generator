@@ -1,0 +1,42 @@
+{
+  "name": "random-file-generator",
+  "version": "0.1.0",
+  "description": "A tool for quickly generating random binary files",
+  "main": "index.js",
+  "bin": {
+    "rand-gen": "./bin.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoningLiu/random-file-generator.git"
+  },
+  "keywords": [
+    "Generator",
+    "Random",
+    "Binary",
+    "File",
+    "MD5"
+  ],
+  "author": "Xiaoning Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XiaoningLiu/random-file-generator/issues"
+  },
+  "homepage": "https://github.com/XiaoningLiu/random-file-generator#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.12",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/mkdirp": "^0.5.2",
+    "@types/progress": "^2.0.1",
+    "mkdirp": "^0.5.1",
+    "progress": "^2.0.3",
+    "yargs": "^12.0.5"
+  }
+}
