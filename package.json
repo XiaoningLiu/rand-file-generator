@@ -1,6 +1,6 @@
 {
   "name": "random-file-generator",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A tool for quickly generating random binary files",
   "main": "index.js",
   "bin": {
