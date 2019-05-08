@@ -13,7 +13,7 @@ npm install -g random-file-generator
 Generate a 200MB random binary file named "200MB" in "D:\temp" folder. 
 
 ```bash
-$ rand-gen D:\temp -f 200MB -s 1024000 200
+$ rand-gen -d D:\temp -f 200MB -s 1024000 -n 200
 Usage: rand-gen -d [num] -f [num] -s [num] -n [num]
 
 Options:
